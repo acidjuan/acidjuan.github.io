@@ -1,0 +1,865 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>TÉRMINOS Y CONDICIONES DE USO</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-opaquegray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="8bf6711e-0f25-4913-9b78-71c21518f86f" class="page sans"><header><h1 class="page-title"><strong>TÉRMINOS Y CONDICIONES DE USO</strong></h1></header><div class="page-body"><p id="b130d815-e751-4ac1-b1a8-acf703f2ffe9" class="">Por favor, lea detenidamente los presentes Términos y Condiciones de Uso antes de
+utilizar la presente aplicación.</p><p id="4b325b6f-d625-4982-9f40-118a87d93d1b" class="">1.- <strong>Objeto de los presentes Términos y Condiciones</strong></p><p id="09886864-ef66-47fc-9a45-6f511e3b8b34" class="">Los presente términos y condiciones de uso tienen como objeto la información al
+Usuario de las advertencias, términos y condiciones aplicables a la descarga, acceso y
+utilización de la aplicación móvil de Samsung de cancelación de sonido (en adelante, la
+App) desarrollada por Samsung Electronics Iberia, S.A.U. (en adelante, Samsung)
+sociedad mercantil con domicilio social en la Avda. de la Transición Española, 32,
+28108 Alcobendas (Madrid)e inscrita en el Registro Mercantil de Madrid, al tomo
+24.603, folio 178, hoja número M-442.826, y con N.I.F. A-59.308.114.</p><p id="75e14393-77f5-4b45-bc5c-2cf65ca8e58b" class="">Esta App está a disposición de los Usuarios de forma gratuita.</p><p id="2eb57e06-ec54-43ad-a6e7-83f1baa22fb3" class=""><strong>EN E</strong>l diseño y desarrollo de esta App han intervenido profesionales especialistas así
+como un grupo de Usuarios que participaron en el periodo de prueba para su testeo.</p><p id="c36d320c-0079-4442-a322-497e5036593e" class=""><strong>2.- Condición de Usuario.</strong></p><p id="2a6fdb88-21a9-4c6e-b66a-1e9a460a309d" class="">El Usuario de la App (en adelante el Usuario) podrá descargarse la App desde los
+market places Google Play Store y Samsung Galaxy Store.</p><p id="7cbdfc01-e32c-4bca-aaa0-ee45c5293fd3" class="">La descarga o utilización de la App atribuye la condición de “Usuario” a quien ejecute
+dicha descarga e implica la aceptación automática de los Términos y Condiciones de
+uso de la App incluidas en este documento.</p><p id="236e3701-8a7d-4cb2-954a-992ae1bfb696" class="">Esta App se pone a disposición de los Usuarios para su uso personal (nunca
+empresarial).</p><p id="c32e668f-40b4-48a1-af90-5325c3872b67" class=""><strong>3.- Aceptación de las Terminos y Condiciones de Uso.</strong></p><p id="3aceb9ef-7d74-494c-8c7e-5d43d30eeab2" class="">La simple utilización de la App conlleva automáticamente la aceptación plena y sin
+reserva por el Usuario de los Términos y Condiciones de uso de la App en la versión
+vigente en cada momento. En consecuencia, el Usuario debe leer periódicamente los
+Términos y Condiciones de uso de la App para conocer sus actualizaciones, sin que
+Samsung esté obligado a avisar previamente a los Usuarios de cada actualización.</p><p id="3bf568e8-92e4-480d-b70c-8bd3ce364de8" class="">La aceptación de las presentes Términos y Condiciones de uso supone que el Usuario
+ha leído, entiende y comprende los Términos y Condiciones de Uso en toda su
+extensión, asumiendo todas las obligaciones aquí dispuestas</p><p id="645df114-0842-4223-9d94-5b16221d2029" class="">Si el Usuario no está de acuerdo con estos términos y condiciones de uso o con
+cualquiera de sus actualizaciones, no debe seguir accediendo a la App.</p><p id="dbc53328-1e90-4082-93a3-f066ea6739c0" class="">4.- <strong>Funcionalidad que tiene la App</strong></p><p id="340bc87e-4dbd-4814-9d20-48efc1027383" class="">La App ha sido diseñada exclusivamente para su uso en smartphones Samsung Galaxy
+con sistema operativo Android 10 o superior y los auriculares Galaxy Buds2 Pro (en
+adelante, los smartphones y los buds, respectivamente o los “Dispositivos”
+conjuntamente) que permita identificar sonidos proclives de, potencialmente,
+perturbar a los Usuarios en general o con trastorno del espectro del autismo en grado
+leve o moderado (en adelante, “<strong>TEA</strong>”) en particular para ecualizarlos o cancelarlos.</p><p id="7c6baa2a-6991-458b-8e82-53957e273f46" class="">La App es capaz de analizar el volumen exterior y activar la protección a un volumen
+determinado por el Usuario. El Usuario podrá decidir qué sonidos desea evitar
+(predeterminados en un listado) y que cuando se exponga a ellos, sus buds entren en
+modo noise cancelling / atenuación de todo el espectro sonoro. Además, la App no
+sólo puede realizar esta función con los sonidos de “fuera” de los cascos, sino también
+con aquellos sonidos provenientes de contenidos reproducidos por apps/plataformas
+instaladas en el móvil, tales como. Youtube, Netflix, Videojuegos etc.</p><p id="a645590d-8ad5-4868-92e5-b5b823c5ae8c" class=""><strong>5.- Uso de la App por menores de edad</strong></p><p id="c570a992-0306-4d73-8af3-f5b4254a5600" class="">Para usar la App, el Usuario declara que tiene como mínimo 13 años de edad y acepta
+que si tiene entre 13 y 18 años de edad, su tutor legal deba revisar y estar conforme
+con estos términos y condiciones de uso.</p><p id="9ecf520d-48a9-4498-8771-2f63b5bd01a2" class=""><strong>6.- Obligaciones de los Usuarios de la App</strong></p><p id="603430d2-bab6-4409-adb0-89a9244c8a29" class="">El Usuario se obliga a utilizar <strong>la App </strong>de conformidad con los presentes Términos y</p><p id="965d5eb6-4b6d-4a29-8366-744b80642aec" class="">Condiciones de uso de la App , siendo informado de lo siguiente:</p><p id="a3cf1564-2b8a-4433-840a-5bd83fa8b5e7" class="">El uso de la App por parte del Usuario deberá hacerse de forma responsable y de
+conformidad a la legalidad vigente, la buena fe, y respetando los derechos de
+propiedad intelectual e industrial titularidad de Samsung y de otros terceros.</p><p id="b910cebb-b5be-44b2-9c4e-5766d49c6b2c" class="">El uso de cualquiera de los contenidos de la App con finalidades que sean o pudieran
+ser ilícitas queda totalmente prohibido, así como la realización de cualquier acción que
+cause o pueda causar daños o alteraciones de cualquier tipo a la App.</p><p id="c28f4479-069c-4d08-bebc-30ff43299d05" class="">El Usuario, en todo momento, a título enunciativo, que no limitativo, se abstendrá de:</p><ul id="b0fbaeaa-04fe-4c7b-98ec-712cef77a689" class="bulleted-list"><li style="list-style-type:disc">emplear de medios o instrumentos técnicos o informáticos que pudieran impedir o
+dificultar el normal funcionamiento de la App o dañar las herramientas y dispositivos
+técnicos integrados en la misma.</li></ul><ul id="d984a022-e319-47f0-a5d4-7d3fe1893e76" class="bulleted-list"><li style="list-style-type:disc">emplear de cualquier herramienta técnica o informática que permita la extracción,
+automatizada o sustancial, de datos o contenidos alojados o almacenados en o
+accesibles por medio de la App, tales como técnicas de page-scrape o extracción de
+datos, robots, spiders (arañas) u otros dispositivos automáticos, programas,
+algoritmos, metodologías o procesos manuales con el fin de acceder, adquirir, copiar o</li></ul><p id="94d453dc-9fc6-4bd2-bbfb-8776b680f53e" class="">hacer un seguimiento de los contenidos de la App, con el fin de obtener o intentar
+obtener materiales, documentos o información no disponible a través del uso
+autorizado de la App.</p><ul id="5f620f08-a571-4c53-981e-fbdbba92f5d5" class="bulleted-list"><li style="list-style-type:disc">La clonación o modificación de las pantallas de la App, total o parcialmente,
+mediante páginas web u otras aplicaciones para comercializar cualquier producto o
+servicio. .</li></ul><ul id="f0ff2e19-7b45-4ae5-a6b8-26884f4b2e16" class="bulleted-list"><li style="list-style-type:disc">Cualquier otro uso diferente al expresamente autorizado en estos Términos y
+Condiciones. de Uso</li></ul><p id="25d03438-b356-4aad-b2c6-376c60dd6acb" class=""><strong>7.- Exclusión de obligaciones y garantías</strong></p><p id="d96ff6a9-07d6-4e40-9560-3c75d8182047" class="">La responsabilidad derivada del uso de la App corresponde sólo al Usuario.</p><p id="f27be971-bab9-4ee2-8786-676972a15c3d" class="">la App se presta “tal y como es” y sin ninguna clase de garantía de funcionamiento
+que derive en responsabilidad para Samsung.</p><p id="efe6cbf7-524f-4033-94f7-5129db615f60" class="">Samsung declina toda responsabilidad sobre los siguientes puntos:</p><ul id="685505c2-eba9-4521-99cd-d4145ba4b08d" class="bulleted-list"><li style="list-style-type:disc">El funcionamiento incorrecto o interrumpido de la App. La Usuario declara ser
+consciente de que internet es un medio sujeto a disfunciones e interrupciones de
+servicio.</li></ul><ul id="379bb2fe-76be-4b4e-a561-95275a77d0bc" class="bulleted-list"><li style="list-style-type:disc">Las expectativas que el Usuario pudiera haberse podido crear en relación con las
+posibilidades de uso de la App.</li></ul><ul id="b0fc6f9f-b0e9-4149-b70a-ee243a7acc8e" class="bulleted-list"><li style="list-style-type:disc">La incompatibilidad de la App con dispositivos diferentes a los identificados
+expresamente en los presentes Términos y Condiciones de Uso.</li></ul><ul id="c3b828fd-3bfe-46a9-855c-87de6bf4a201" class="bulleted-list"><li style="list-style-type:disc">La calidad final de la App o que ésta no sirva o no cumpla con todos los objetivos
+del Usuario sobre la misma. No obstante lo anterior, Samsung se compromete en
+la medida de sus posibilidades a contribuir a mejorar la calidad de la App, pero no
+puede garantizar la precisión ni la actualidad del contenido de la misma.</li></ul><ul id="3e5eddc1-74ea-4733-bd50-404873baada2" class="bulleted-list"><li style="list-style-type:disc">Los daños producidos como consecuencia de un uso indebido o inadecuado de la
+App por parte de los Usuarios.</li></ul><ul id="95894a1d-5a4d-4f72-988d-187ed86d76eb" class="bulleted-list"><li style="list-style-type:disc">Que la App o cualquier parte de ella no esté disponible por motivos técnicos o de
+mantenimiento, ya sean estos programados o no.</li></ul><ul id="c084c300-09c0-4fc8-8f8c-ab520388da5c" class="bulleted-list"><li style="list-style-type:disc">Los cargos de conexión a Internet o conexión desde un dispositivo móvil que
+pueda tener por acceder a la App y utilizarla. Si no está seguro de cuáles serán
+esos cargos, antes de acceder a la App o utilizarla debería consultar con su
+proveedor de internet u operador móvil.</li></ul><p id="f3f94281-9ff2-4e7e-91ed-743144054817" class="">Samsung se reserva el derecho de editar, actualizar, modificar, suspender, eliminar o
+finalizar los servicios ofrecidos por la App, incluyendo todo o parte de su contenido, sin
+necesidad de previo aviso, así como de modificar la forma o tipo de acceso a esta.</p><p id="072c69cc-6a05-4492-a497-3276ab3bf5ca" class=""><strong>8.- Notificación de abusos e infracciones</strong></p><p id="35de621d-2fb8-4518-b13e-c58929bfa69a" class="">En el caso de que cualquier Usuario considere que existen hechos o circunstancias que
+revelen el carácter ilícito de la utilización de la App de otro Usuario o de cualquier
+tercero (incluyendo la violación de derechos de propiedad intelectual o industrial, la
+realización de actos de competencia desleal o publicidad ilícita, actos contrarios al
+Derecho de cualquier naturaleza) le estaremos muy agradecidos de que lo ponga en
+conocimiento de Samsung a la siguiente dirección de correo electrónico
+lucas.vilela@samsung.com</p><p id="c31f284a-7508-45a3-8f1b-1b53c4e99047" class="">En todo caso, Samsung puede poner a disposición de los Usuarios, si así lo decide,
+otros mecanismos para llevar a cabo estas notificaciones en Samsung.</p><p id="34caea24-7305-451e-9a8e-c08afa1fd5e7" class="">Recibida la notificación Samsung llevará a cabo las actuaciones oportunas que le
+correspondan según sus obligaciones legales.</p><p id="a6b64433-c22f-43cb-98b2-2cf78d86166f" class=""><strong>9.- Propiedad intelectual e industrial de Samsung</strong></p><p id="db7336c3-008d-4bf0-ac7d-52c209d79781" class="">Pertenecen de forma exclusiva a Samsung (o terceros con quienes Samsung ha suscrito
+los legítimos acuerdos) los derechos de propiedad intelectual e industrial sobre la App ,
+sus textos, gráficos, imágenes, animaciones, código fuente, bases de datos, contenidos
+y otros elementos integrados en la App, incluida su estructura, ordenación y
+configuración, siendo esta enumeración no limitativa (en adelante también
+identificados todos ellos como Contenidos) todo ello amparado por las leyes de
+propiedad intelectual e industrial, con carácter nacional e internacional.</p><p id="b428c1ae-582e-44fd-be32-0c16f3db7005" class="">Los terceros titulares de derechos de propiedad intelectual e industrial sobre
+fotografías, logotipos, y cualesquiera otros símbolos o contenidos incluidos en la
+APLICACIÓN han concedido las correspondientes autorizaciones para su reproducción,
+distribución y puesta a disposición del público.</p><p id="f89f419d-605c-4417-a56c-3aa78213b77f" class="">Samsung es la única que puede conceder al Usuario una licencia no exclusiva,
+intransferible, personal, revocable y limitada para el acceso o el uso de la App (pero no
+a objetos relacionados ni al código fuente) para su uso personal y privado, y en cada
+caso, siempre que dicho uso se realice según estos términos y condiciones de uso.
+Estos términos y condiciones de uso también se aplican a cualquier actualización o
+ajuste que podamos lanzar o poner a disposición del Usuario para cualquiera de las
+funciones de la App, y dicha actualización o ajuste formará parte de la misma por el
+tiempo en que esté accesible públicamente y con las siguientes limitaciones:</p><p id="02a6f63b-c5f9-4c91-b2b9-061d2ba642de" class="">o El Usuario no puede reproducir la App ni sus contenidos ni realizar copias para su
+uso ni, vender, comercializar ni revender su uso ni sus contenidos, su diseño o
+apariencia, ni ninguna Información derivada de ellos.
+o Queda prohibida la traducción, adaptación, arreglo o cualquier otra transformación
+de la App y sus contenidos que solo corresponde a Samsung o los legítimos titulares de
+los contenidos o terceros autorizados por Samsung.</p><p id="634c8f05-98dd-4ebf-8409-c8b057f4814d" class="">o También se prohíbe la alteración de cualquiera de las partes de la App y sus
+contenidos para modificar su funcionalidad, características o condiciones técnicas de
+acceso y uso.
+o El Usuario tiene prohibido realizar, con ninguna finalidad y en ningún caso la
+reproducción, modificación, distribución, comercialización, descompilación,
+desensamblado, utilización de técnicas de ingeniería inversa o de cualquier otro medio
+para obtener el código fuente, transformación o publicación de cualquier resultado de
+pruebas de referencias no autorizadas de cualquiera de los elementos y
+utilidades integradas dentro del desarrollo.</p><p id="b2e7315a-1129-46f5-bd86-97c297897906" class="">o El Usuario no puede realizar, con ninguna finalidad y en ningún otro caso,
+transferencia, traspaso, arrendamiento, venta así como cualquier acto de disposición,
+temporal o permanente, gratuita u onerosamente del derecho de uso o cualesquiera
+otros derechos de explotación de la App y sus contenidos</p><p id="222c0a8c-a27d-43c7-97d7-5e8c43eb7e97" class="">En definitiva, bajo ningún concepto, la Usuario podrá realizar un uso o utilización o un
+acto de disposición de la App, sus servicios y contenidos distinto al permitido en las
+presentes condiciones o en cualesquiera otras aplicables.</p><p id="30ed3e97-ed85-4cde-a4cd-2be12b90cddd" class="">El Usuario que lleve a cabo cualquiera de las acciones prohibidas será el único
+responsable de las consecuencias que de tales acciones se deriven.</p><p id="cee526f9-284b-479d-844b-9733ac5e592a" class="">Si la actuación u omisión culpable o negligente directa o indirectamente imputable al
+Usuario que origine la infracción de los derechos de propiedad intelectual e industrial
+de Samsung o de terceros -exista o no beneficio para el mismo- originase a Samsung
+daños, pérdidas, gastos de cualquier naturaleza, sanciones, medidas coercitivas,
+multas y otras cantidades derivadas de cualquier reclamación, demanda, acción, pleito
+o procedimiento, sea civil, penal o administrativo, Samsung tendrá derecho a dirigirse
+contra el Usuario por todos los medios legales a su alcance y reclamar cualesquiera
+cantidades indemnizatorias, incluyendo– a título enunciativo y no limitativo- daños
+morales e imagen, daño emergente y lucro cesante, costes publicitarios o de cualquier
+otra índole que pudieran resultar para su reparación, importes de sanciones o
+sentencias condenatorias, por las causas anteriormente expuestas, sin perjuicio de
+ejercer cualesquiera otras acciones que en derecho le corresponda.</p><p id="db676c2c-8e45-4975-ad6a-7b8a6ea2207d" class="">Asimismo, la denominación de Unfear y cualesquiera otros signos distintivos y
+logotipos utilizados por Samsung son propiedad exclusiva de Samsung u otros terceros
+con quienes Samsung mantiene relaciones comerciales y le han habilitado
+legítimamente a su uso, con independencia de que se hallen o no registradas.</p><p id="b69a1238-3536-4070-938f-3659955ebaaf" class=""><strong>10.- Duración del uso de la App</strong></p><p id="49f6738e-28f2-4b75-a275-8b75e861e92e" class="">El acceso, los contenidos y servicios ofrecidos a través de la App y la App misma, tiene
+en principio una duración máxima de dos años desde su comunicación pública.
+Samsung no obstante podrá dar por terminado o suspender el acceso, los servicios y/o
+contenidos, así como la descarga de la App en cualquier momento y sin necesidad de
+aviso.</p><p id="e608724a-fb0b-4d71-ab42-c3d56c8b7d54" class=""><strong>11.- Información detallada sobre el tratamiento de datos de carácter personal de las
+personas usuarias de la App</strong></p><p id="984045db-3a70-49fb-a66d-af3304f60328" class="">El Usuario pueden encontrar esta información en el apartado de Privacidad.</p><p id="28009870-50c2-4660-89f2-d8ad08356eaf" class=""><strong>12.- Modificación de las presentes condiciones y de las condiciones que regulan la
+Relación Contractual</strong></p><p id="699acdeb-ba2e-4e1e-9621-0e3374bf386a" class="">Los Usuarios son conscientes de que Samsung podrá modificar y actualizar los
+presentes Términos y Condiciones de uso de la App en cualquier momento sin
+necesidad de informar de ello a los Usuarios. Los Usuarios deberán consultar
+periódicamente los Términos y Condiciones de uso de la App para conocer la versión
+aplicable en cada momento.</p><p id="0d2c8055-b590-4db2-8a57-294d92c6b103" class=""><strong>13.- Permanencia de los presentes Términos y Condiciones de Uso en caso de nulidad
+de alguna de sus cláusulas</strong></p><p id="d5aca2f8-c4ed-4705-af3c-3d6a53171a28" class="">La declaración de nulidad o invalidez de cualquier cláusula contenida en los presentes
+Términos y Condiciones de uso de la App no afectará a la validez y eficacia de las
+demás cláusulas, que se interpretarán y aplicarán en el sentido lícito más próximo al
+que se derivase de la aplicación de la cláusula nula.</p><p id="344b1e0e-85ed-4987-8e01-64338a0db96b" class=""><strong>14.- Ley aplicable y Jurisdicción</strong></p><p id="40667ba2-572b-4eef-a1b7-298983976989" class="">A los presentes Términos y Condiciones de Uso están sujetos a la ley española.</p><p id="bf99e63f-6435-4165-af34-72b1279a0cbd" class="">De acuerdo con el Real Decreto Legislativo 1/2007, de 16 de noviembre, por el que se
+aprueba el texto refundido de la Ley General para la Defensa de los Consumidores y
+Usuarios y otras leyes complementarias (Ley General de Consumidores y Usuarios) en
+caso de litigio en la materia regulada en esta norma, serán competentes los Juzgados y
+Tribunales del domicilio del consumidor y Usuario. En caso de litigio en cualquier otra
+materia, serán competentes los Juzgados y Tribunales de Alcobendas (Madrid)</p><p id="b937e7a1-ca5d-49c9-8e46-6ebc3d4d1773" class="">En todo caso, el Usuario queda informado de que, en virtud de lo dispuesto en
+el Reglamento (UE) no 524/2013 del Parlamento Europeo y del Consejo, de 21 de mayo
+de 2013, sobre resolución de litigios en línea en materia de consumo, podrá acudir a la
+“Plataforma en línea de Resolución de Conflictos” desarrollada por la Comisión
+Europea, con el fin de intentar resolver extrajudicialmente cualquier controversia que
+se derive de la prestación de servicios a través de la App.</p><p id="6b115d7c-d2b0-4709-b1c5-241313254e35" class="">Para a acceder a la “Plataforma en línea de Resolución de Conflictos” puede hacerlo a
+través del siguiente enlace: http://ec.europa.eu/consumers/odr/</p><p id="832d338f-2b99-4d30-8186-e41f4628521a" class=""><strong>15.- Contacto con Samsung</strong></p><p id="a16f8769-f55e-4f1a-a3da-48c2ef8135f9" class="">Para cualquier consulta sobre las presentes condiciones de descarga y uso de la App,
+las personas usuarias pueden contactar con Samsung a través de la siguiente dirección
+de correo electrónico: lucas.vilela@samsung.com .</p><p id="f40eafae-626f-4ddd-b771-b01ca4fc952d" class=""><strong>3. POLITICA DE PRIVACIDAD</strong></p><p id="281263f0-5e50-4146-8ec8-3f73ab7dd265" class="">A través de la App NO se recaban datos de carácter personal de los Usuarios sin su
+conocimiento, ni se ceden a terceros.</p><p id="1c8deb52-be37-43b1-b178-972deb0991f6" class="">Con la finalidad de ofrecerle el mejor servicio y con el objeto de facilitar el uso, se
+pueden analizar el número de visitas, así como la actividad de los usuarios y su
+frecuencia de utilización. A estos efectos, Samsung utiliza la información estadística
+elaborada por el Proveedor de Servicios de Internet.</p><p id="833cbeb2-430f-41cd-8c73-df1e5a432347" class="">Samsung no utiliza cookies para recoger información personal de los Usuarios, ni
+registra las direcciones IP de acceso. Únicamente se utilizan cookies propias, de
+sesión, con finalidad técnica, que es aquella que permite la navegación a través del la
+Aplicación y la utilización de las diferentes opciones y servicios que en ella existen.</p><p id="64a0c1aa-bee3-4f23-889c-239630c3316f" class="">La App utilizará Google Analytics como herramienta para conocer el uso y las
+tendencias de interacción de la misma. Samsung podrá utilizar la información de
+carácter personal que facilite de forma disociada (sin identificación personal) para
+fines internos, tales como la elaboración de estadísticas. La Apppodrá recabar,
+almacenar o acumular determinada información de carácter no personal referente a su
+uso.</p><p id="70b4f7c4-d0b3-4c4f-8797-3b0a13e193e9" class="">Google Analytics se rige por las condiciones generales de Google accesibles
+en http://www.google.com/analytics/terms/es.html y las políticas de privacidad en
+Google accesibles en https://www.google.es/intl/es/policies/privacy/. Para proceder a
+la desactivación de Google
+Analytics: https://support.google.com/analytics/answer/1009696?hl=es</p><p id="b49ef863-1bb9-4cdc-99d6-fa44b2502fa9" class=""><strong>AVISO LEGAL</strong><strong>
+1.- Titularidad de la aplicación: SAMSUNG</strong></p><p id="4cf2af56-aa07-496d-bcc5-8d5fd5d10026" class="">De acuerdo con lo dispuesto en el artículo 10 de la Ley 34/2002, de 11 de julio, de
+Servicios de la Sociedad de la Información y de Comercio Electrónico (“LSSI”), ponemos
+en conocimiento del Usuario que la aplicación Unfear (la “App”) es una aplicación</p><p id="63e65ff2-3a53-4eae-92a5-cfb065b26c1c" class="">titularidad de Samsung Electronics Iberia, S.A.U. (en adelante Samsung) sociedad
+mercantil con domicilio en Avda. de la Transición Española, 32, 28108 Alcobendas
+(Madrid)e inscrita en el Registro Mercantil de Madrid, al tomo 24.603, folio 178, hoja
+número M-442.826, y con N.I.F. A-59.308.114.</p><p id="e8ce3e79-4bb2-4008-aa2d-3dd1059152b4" class=""><strong>Este aviso legal establece las condiciones mediante las que se rige el acceso y uso de
+la App.</strong></p><p id="1fc1aa25-3abb-43de-a5d3-ccfcb2bde222" class="">La descarga de la App por el Usuario (el “Usuario”) supone que acepta íntegramente y
+se obliga a cumplir por completo los términos y condiciones recogidos en el presente
+Aviso Legal, así como en los Términos y Condiciones de Uso de la App.</p><p id="346760f4-0554-40f7-9b43-6497c882119b" class="">Por lo tanto, el Usuario debe leer atentamente el presente Aviso Legal, además de los
+Términos y Condiciones de Uso de la App en cada una de las ocasiones en que se
+proponga utilizar la App, ya que ésta y sus condiciones de uso pueden sufrir
+actualizaciones.</p><p id="7d0789b0-158e-4bb4-8085-4de760954c49" class=""><strong>2. Acceso a nuestra App</strong></p><p id="a7d972df-5a7d-4823-89e7-c8dea9cb1892" class="">El acceso a la App es gratuito, salvo en lo relativo al coste de conexión a través de la
+red de telecomunicaciones suministrada por el proveedor de acceso que hubiere
+contratado el Usuario, de lo cual Samsung no es responsable.</p><p id="75a5f0ca-56f4-49f4-a7b2-7ea52be90457" class="">Samsung se reserva el derecho de modificar, actualizar, anular, eliminar, revisar,
+borrar o introducir cualquier cambio en todo o parte de la App, en cualquier momento,
+cuando considere conveniente para una mejor prestación al Usuario.</p><p id="d538565f-9baf-49bd-bdbc-703fbf006331" class="">El Usuario se obliga a no usar la App para fines fraudulentos y a no realizar ninguna
+conducta que pueda perjudicar la App. Se obliga, asimismo, a no realizar ninguna
+actuación dirigida a dañar, invalidar o a obstaculizar en cualquier forma su uso y
+funcionamiento normales.</p><p id="85769d12-da08-4899-b2fb-b1c8cd007869" class="">Le informamos de que en caso de incumplimiento del presente Aviso Legal y/o
+Términos de Uso, Samsung se reserva el derecho a limitar, suspender o poner fin a su
+acceso a la App, adoptando a tal efecto a las medidas técnicas que resulten necesarias.</p><p id="45cc0743-1148-44be-b606-cb09b0ba1374" class=""><strong>3. Licencia de uso de la App</strong></p><p id="274fb2a8-0bf1-49cd-afe7-693663a90610" class="">Samsung otorga al Usuario una licencia de uso gratuita para utilizar la App (la
+“Licencia”), de manera no exclusiva, para uso personal y con carácter intransferible,
+para el ámbito territorial mundial, con la única finalidad de utilizar la App para la
+finalidad para la que resultó diseñada, descrita en los Términos y Condiciones de Uso.</p><p id="1e449f40-c1f6-405b-b3c5-3700540ef274" class="">4. <strong>Propiedad intelectual e industrial</strong></p><p id="6ff15658-d42c-46e4-b291-c536cf811eef" class="">Damos por reproducido el contenido del apartado de Propiedad Intelectual contenido
+en los Términos y Condiciones de uso.</p><p id="7a269318-17be-4e87-abaa-751f17241bf9" class=""><strong>5. Permanencia de este Aviso Legal.</strong></p><p id="c9fcaf65-f27c-4a5d-82c1-c26f31b268ce" class="">Si alguna de las cláusulas de la Licencia resultare ser nula, inválida o dejare de surtir
+efectos entre las partes, cualquiera que fuere la causa, las restantes cláusulas de la
+misma seguirán siendo válidas y exigibles a las partes, excepto en el caso de que las
+prestaciones o contraprestaciones objeto de la cláusula nula, inválida o ineficaz
+hubieran sido determinantes de la oferta o de su aceptación, de modo tal que sin tales
+prestaciones o contraprestaciones una de las partes o ambas no hubieran celebrado la
+Licencia.</p><p id="382ac9a2-12ac-4152-bd90-20dbd0eacdec" class=""><strong>6. Legislación aplicable y jurisdicción competente</strong></p><p id="f7c1306b-a9dd-4d3d-aeff-126dd5a39d59" class="">Las partes acuerdan que todo litigio, discrepancia, cuestión o reclamación resultante
+de la ejecución o interpretación de este Aviso Legal, se resolverá definitivamente ante
+la jurisdicción de los Juzgados y Tribunales de Alcobendas (Madrid).</p><p id="703789d7-c768-4b69-8e49-e4e5d7791fdb" class="">
+</p></div></article></body></html>
